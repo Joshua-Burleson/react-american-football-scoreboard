@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from 'react-dom';
 
 import ScoreSection from './ScoreSection.js';
 import Buttons from './Buttons.js';
@@ -27,5 +26,4 @@ function App(){
     )
 }
 
-const rootElement = document.createElement('div');
-ReactDOM.render(<App />, rootElement);
+export default App;
