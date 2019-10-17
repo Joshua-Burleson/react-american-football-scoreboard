@@ -106,6 +106,12 @@
   border: 1px solid white;
 }
 
+.button-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .buttons {
   width: 50%;
   margin: 0 auto;
@@ -116,7 +122,8 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.quarter-buttons button {
   margin: 1rem;
   border-radius: 4px;
 }
