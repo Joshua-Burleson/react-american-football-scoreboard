@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-
 import BottomRow from './BottomRow.js';
-import "./App.css";
 
 function ScoreSection(props){
 
